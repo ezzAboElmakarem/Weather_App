@@ -29,6 +29,11 @@ class SearchScreen extends StatelessWidget {
               Provider.of<WeatherProvider>(context, listen: false).cityName =
                   CityName;
               print(weather.WeatherStatus);
+              print('mnm,nb');
+              print(',mb,m');
+              print('jkjkh');
+              print('kjlk');
+              print(',hkjghj');
               Navigator.pop(context);
             },
             decoration: InputDecoration(
